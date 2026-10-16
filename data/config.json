@@ -1,0 +1,15 @@
+{
+  "institution": "Universidad de Guadalajara - CUTonalá",
+  "assistant_name": "Orientador UDG",
+  "current_topic": "clase_vacia",
+  "welcome": "Hola, soy el orientador de estudiantes de la UDG CUTonalá. Por ahora puedo ayudarte con el tema de CLASES VACÍAS (maestros que no llegan o no dan clase). Cuéntame qué pasó.",
+  "disclaimer": "Esta orientación es informativa y no sustituye asesoría jurídica ni la resolución oficial de la universidad. Verifica siempre los datos con tu coordinación de carrera.",
+  "suggested_questions": [
+    "Mi maestro no llegó a clase, ¿qué hago?",
+    "¿Cuánto tiempo debo esperar al maestro?",
+    "¿Cómo reporto a un maestro que falta mucho?",
+    "¿Puedo exigir que me repongan la clase?",
+    "¿Qué evidencia debo juntar?"
+  ],
+  "out_of_scope_reply": "Eso queda fuera de lo que sé por ahora (de momento solo manejo CLASES VACÍAS). Si necesitas ayuda urgente, acércate a tu coordinación de carrera o a la Defensoría de los Derechos Universitarios. Si estás en peligro, llama al 911."
+}

@@ -1,0 +1,1630 @@
+{
+  "inicio_estado": "inicio",
+  "estados": {
+    "inicio": {
+      "texto": "Hola, te ayudo con el tema de clases vacías. ¿Qué situación tienes?",
+      "opciones": [
+        {
+          "texto": "Mi maestro no llegó hoy",
+          "siguiente": "primera_vez",
+          "palabras": [
+            "hoy",
+            "no llego",
+            "no vino",
+            "no llega",
+            "primera vez",
+            "no ha llegado",
+            "ausente",
+            "no hay clase"
+          ]
+        },
+        {
+          "texto": "Mi maestro falta seguido",
+          "siguiente": "recurrente",
+          "palabras": [
+            "seguido",
+            "siempre",
+            "varias veces",
+            "muchas veces",
+            "recurrente",
+            "falta mucho",
+            "cada semana",
+            "otra vez",
+            "faltas"
+          ]
+        },
+        {
+          "texto": "Quiero saber mis derechos",
+          "siguiente": "derechos",
+          "palabras": [
+            "derecho",
+            "derechos",
+            "ley",
+            "legal",
+            "reglamento",
+            "normativa"
+          ]
+        },
+        {
+          "texto": "Tengo otra duda",
+          "siguiente": "menu",
+          "palabras": [
+            "otra duda",
+            "otro tema",
+            "otros temas",
+            "menu",
+            "ayuda",
+            "no se por donde empezar"
+          ]
+        }
+      ]
+    },
+    "primera_vez": {
+      "texto": "Vamos paso a paso. Primero hay que confirmar que de verdad es una clase vacía.",
+      "fichas": [
+        "p-01-esperar"
+      ],
+      "pregunta": "¿Ya pasó el tiempo de espera y nadie avisó nada?",
+      "opciones": [
+        {
+          "texto": "Sí, nadie avisó",
+          "siguiente": "evidencia",
+          "palabras": [
+            "nadie aviso",
+            "no aviso",
+            "sin aviso",
+            "ya paso",
+            "si"
+          ]
+        },
+        {
+          "texto": "No, sí avisó",
+          "siguiente": "aviso",
+          "palabras": [
+            "si aviso",
+            "aviso",
+            "todavia no",
+            "no ha pasado",
+            "espero"
+          ]
+        }
+      ]
+    },
+    "aviso": {
+      "texto": "Entonces todavía no cuenta como clase vacía. Si el maestro avisó que no vendrá, lo que corresponde es pedir que se reponga la clase.",
+      "fichas": [
+        "u-02-reposicion"
+      ],
+      "opciones": [
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "evidencia": {
+      "texto": "Entonces sí fue una clase vacía. Antes de reclamar nada, junta evidencia: es lo que hace que te hagan caso.",
+      "fichas": [
+        "p-02-evidencia"
+      ],
+      "pregunta": "¿Ya hablaste con el maestro sobre esto?",
+      "opciones": [
+        {
+          "texto": "Sí, y no respondió o no se solucionó",
+          "siguiente": "coordinacion",
+          "palabras": [
+            "no respondio",
+            "no se soluciono",
+            "no hizo caso",
+            "me ignoro",
+            "ya hable",
+            "si"
+          ]
+        },
+        {
+          "texto": "Todavía no",
+          "siguiente": "hablar",
+          "palabras": [
+            "todavia no",
+            "aun no",
+            "no he hablado",
+            "no"
+          ]
+        }
+      ]
+    },
+    "hablar": {
+      "texto": "Está bien empezar por ahí, sobre todo si es la primera vez.",
+      "fichas": [
+        "p-03-hablar"
+      ],
+      "pregunta": "¿Quieres saber a quién acudir si no te responde?",
+      "opciones": [
+        {
+          "texto": "Sí, ¿a quién acudo?",
+          "siguiente": "coordinacion",
+          "palabras": [
+            "a quien",
+            "acudo",
+            "si",
+            "claro",
+            "quiero"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        }
+      ]
+    },
+    "recurrente": {
+      "texto": "Si ya pasó varias veces, no conviene quedarse en lo informal: lleva un registro de fechas y haz un reporte por escrito.",
+      "fichas": [
+        "p-02-evidencia"
+      ],
+      "pregunta": "¿Ya reportaste esto en tu coordinación?",
+      "opciones": [
+        {
+          "texto": "Todavía no",
+          "siguiente": "coordinacion",
+          "palabras": [
+            "todavia no",
+            "aun no",
+            "no he reportado",
+            "no"
+          ]
+        },
+        {
+          "texto": "Sí, y no me hicieron caso",
+          "siguiente": "escalar",
+          "palabras": [
+            "no hicieron caso",
+            "ya reporte",
+            "ignoraron",
+            "no respondieron",
+            "no me hicieron",
+            "si"
+          ]
+        }
+      ]
+    },
+    "coordinacion": {
+      "texto": "Entonces el siguiente paso es el reporte formal dentro de la universidad.",
+      "fichas": [
+        "u-01-coordinacion"
+      ],
+      "pregunta": "¿Quieres saber qué hacer si no te hacen caso?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "escalar",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "que hago"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        }
+      ]
+    },
+    "escalar": {
+      "texto": "Si ya reportaste y no hubo respuesta, puedes subir de nivel.",
+      "fichas": [
+        "u-03-defensoria",
+        "l-02-responsabilidad"
+      ],
+      "pregunta": "¿Quieres ver también tus derechos y las instancias externas?",
+      "opciones": [
+        {
+          "texto": "Sí, ver derechos",
+          "siguiente": "derechos",
+          "palabras": [
+            "derechos",
+            "si",
+            "claro",
+            "quiero",
+            "externas"
+          ]
+        },
+        {
+          "texto": "No, gracias",
+          "siguiente": "fin",
+          "palabras": [
+            "gracias",
+            "no"
+          ]
+        }
+      ]
+    },
+    "derechos": {
+      "texto": "Esto es lo básico de tus derechos. Los artículos exactos hay que confirmarlos con tu documento oficial.",
+      "fichas": [
+        "l-01-derechos",
+        "l-03-externas",
+        "l-04-sin-fuente"
+      ],
+      "opciones": [
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "fin": {
+      "texto": "Listo, con eso tienes la ruta: si algo no se resuelve, subes de nivel (personal, UDG, legal). Confirma los datos con tu coordinación de carrera.",
+      "opciones": [
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "menu": {
+      "texto": "Claro. Elige el tema que más se parezca a tu duda, o escríbela con tus palabras.",
+      "opciones": [
+        {
+          "texto": "Avisos y cancelaciones",
+          "siguiente": "avisos",
+          "palabras": [
+            "avisos",
+            "cancelaciones",
+            "moodle"
+          ]
+        },
+        {
+          "texto": "Cuánto esperar / si puedo irme",
+          "siguiente": "espera",
+          "palabras": [
+            "esperar",
+            "irme",
+            "tolerancia"
+          ]
+        },
+        {
+          "texto": "Pruebas y evidencia",
+          "siguiente": "pruebas",
+          "palabras": [
+            "pruebas",
+            "evidencia"
+          ]
+        },
+        {
+          "texto": "Redactar un mensaje o queja",
+          "siguiente": "redactar",
+          "palabras": [
+            "redactar",
+            "mensaje",
+            "queja",
+            "plantilla"
+          ]
+        },
+        {
+          "texto": "Calificaciones y asistencias",
+          "siguiente": "calificaciones",
+          "palabras": [
+            "calificaciones",
+            "asistencias",
+            "examen"
+          ]
+        },
+        {
+          "texto": "Recuperar clases perdidas",
+          "siguiente": "recuperacion",
+          "palabras": [
+            "recuperar",
+            "reposicion"
+          ]
+        },
+        {
+          "texto": "Miedo a represalias",
+          "siguiente": "represalias",
+          "palabras": [
+            "miedo",
+            "represalias"
+          ]
+        },
+        {
+          "texto": "Hacerlo en grupo",
+          "siguiente": "grupo",
+          "palabras": [
+            "grupo",
+            "companeros"
+          ]
+        },
+        {
+          "texto": "Nadie me responde",
+          "siguiente": "sin_respuesta",
+          "palabras": [
+            "no responde",
+            "nadie me responde",
+            "seguimiento"
+          ]
+        },
+        {
+          "texto": "Otro caso (llegó tarde, tuvo un motivo…)",
+          "siguiente": "especiales",
+          "palabras": [
+            "otro caso",
+            "llego tarde",
+            "motivo"
+          ]
+        },
+        {
+          "texto": "Cómo me afecta a mí",
+          "siguiente": "situacion_personal",
+          "palabras": [
+            "me afecta",
+            "transporte",
+            "estres"
+          ]
+        },
+        {
+          "texto": "Proponer una mejora",
+          "siguiente": "propuestas",
+          "palabras": [
+            "proponer",
+            "mejora",
+            "propuesta"
+          ]
+        },
+        {
+          "texto": "Qué puede hacer este bot",
+          "siguiente": "limites_bot",
+          "palabras": [
+            "que puedes hacer",
+            "este bot",
+            "limites"
+          ]
+        }
+      ]
+    },
+    "espera": {
+      "texto": "No puedo darte un número exacto de minutos de tolerancia: depende de las reglas de tu centro y de tu coordinación, y no quiero inventarlo. Lo práctico es esperar de forma razonable junto con tu grupo, confirmar si hubo aviso y, si te retiras, avisar a la coordinación. Si el maestro llega después de que se fueron, anótalo y pregunta cómo se registra esa sesión.",
+      "fichas": [
+        "p-01-esperar"
+      ],
+      "pregunta": "¿Ya pasó un buen rato y nadie avisó?",
+      "opciones": [
+        {
+          "texto": "Sí, ya pasó y nadie avisó",
+          "siguiente": "evidencia",
+          "palabras": [
+            "nadie aviso",
+            "ya paso",
+            "si"
+          ]
+        },
+        {
+          "texto": "Quiero confirmar si hay aviso",
+          "siguiente": "avisos",
+          "palabras": [
+            "aviso",
+            "confirmar",
+            "no se"
+          ]
+        }
+      ]
+    },
+    "avisos": {
+      "texto": "Antes de dar la clase por perdida, vale la pena confirmar si hubo aviso y por qué medio. Un rumor no es lo mismo que un aviso oficial.",
+      "fichas": [
+        "p-04-avisos"
+      ],
+      "pregunta": "¿Encontraste algún aviso?",
+      "opciones": [
+        {
+          "texto": "No hubo ningún aviso",
+          "siguiente": "evidencia",
+          "palabras": [
+            "ningun aviso",
+            "nadie aviso",
+            "no aviso",
+            "sin aviso",
+            "no hubo"
+          ]
+        },
+        {
+          "texto": "Sí, sí avisó",
+          "siguiente": "aviso",
+          "palabras": [
+            "si aviso",
+            "avisaron",
+            "si hubo",
+            "hubo aviso"
+          ]
+        }
+      ]
+    },
+    "pruebas": {
+      "texto": "Te dejo cómo juntar evidencia sin exagerar y sin invadir la privacidad de nadie.",
+      "fichas": [
+        "p-05-pruebas"
+      ],
+      "pregunta": "¿Quieres una plantilla de mensaje para presentar tu reporte?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "redactar",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "plantilla"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "redactar": {
+      "texto": "Este bot no envía mensajes por ti, pero te dejo una plantilla para que la completes y la mandes tú.",
+      "fichas": [
+        "p-06-redactar"
+      ],
+      "pregunta": "¿Quieres saber a quién dirigirlo?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "coordinacion",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "a quien"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "calificaciones": {
+      "texto": "Entiendo la preocupación: perder clases que no dependen de ti no debería afectarte, pero conviene pedirlo por escrito y a tiempo.",
+      "fichas": [
+        "u-04-calificaciones"
+      ],
+      "pregunta": "¿Quieres ver cómo pedir que se recuperen las clases perdidas?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "recuperacion",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "recuperar"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "recuperacion": {
+      "texto": "Reportar no basta: también hay que pedir una solución académica concreta.",
+      "fichas": [
+        "u-05-recuperacion"
+      ],
+      "pregunta": "¿Quieres la plantilla para pedirlo por escrito?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "redactar",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "plantilla"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "represalias": {
+      "texto": "Es normal que te dé miedo, y no estás obligado a reportar de forma agresiva. Aquí no puedo prometerte confidencialidad ni que no habrá consecuencias, pero sí puedo orientarte para protegerte.",
+      "fichas": [
+        "p-08-represalias"
+      ],
+      "pregunta": "¿Quieres ver a quién acudir si hay una represalia o no te atienden?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "escalar",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "acudir"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "grupo": {
+      "texto": "Hacerlo en grupo ayuda, pero no es obligatorio. Lo importante es que los hechos sean los mismos para todos.",
+      "fichas": [
+        "p-07-grupo"
+      ],
+      "pregunta": "¿Quieres la plantilla de mensaje para presentar la petición?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "redactar",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "plantilla"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "sin_respuesta": {
+      "texto": "Si nadie te responde, no estás atascado: se insiste por escrito y, si sigue igual, se sube de nivel.",
+      "fichas": [
+        "u-06-sin-respuesta"
+      ],
+      "pregunta": "¿Qué quieres ver?",
+      "opciones": [
+        {
+          "texto": "Cómo subir de nivel",
+          "siguiente": "escalar",
+          "palabras": [
+            "subir",
+            "nivel",
+            "escalar",
+            "instancia"
+          ]
+        },
+        {
+          "texto": "Dar seguimiento a mi reporte",
+          "siguiente": "seguimiento",
+          "palabras": [
+            "seguimiento",
+            "reporte"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "seguimiento": {
+      "texto": "Ya reportaste; ahora toca dar seguimiento. Recuerda que no puedo consultar el estado de tu caso porque no tengo acceso a los sistemas de la universidad.",
+      "fichas": [
+        "p-12-seguimiento"
+      ],
+      "opciones": [
+        {
+          "texto": "Nadie me responde",
+          "siguiente": "sin_respuesta",
+          "palabras": [
+            "no responde",
+            "nadie"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "especiales": {
+      "texto": "No todo es una clase completamente vacía: llegar tarde, irse a los pocos minutos o dejar solo una actividad también cuentan y se documentan.",
+      "fichas": [
+        "p-11-especiales"
+      ],
+      "pregunta": "¿El maestro tuvo un motivo conocido (enfermedad, permiso, comisión)?",
+      "opciones": [
+        {
+          "texto": "Sí, tuvo un motivo",
+          "siguiente": "razon",
+          "palabras": [
+            "si",
+            "motivo",
+            "enfermo",
+            "permiso"
+          ]
+        },
+        {
+          "texto": "No, sin explicación",
+          "siguiente": "evidencia",
+          "palabras": [
+            "no",
+            "sin explicacion",
+            "nadie sabe"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "razon": {
+      "texto": "Puede haber emergencias, permisos o incapacidades, y no se asume que el maestro actúa mal. Lo que sí puedes pedir es información sobre qué pasará con la clase, sin pedir datos privados.",
+      "fichas": [
+        "p-10-razon"
+      ],
+      "pregunta": "¿Quieres ver cómo pedir que se recupere la clase?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "recuperacion",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "recuperar"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    },
+    "situacion_personal": {
+      "texto": "Tu molestia es razonable: perder tiempo, dinero y ánimo por una clase que no se dio pesa. No tienes por qué cargarlo solo.",
+      "fichas": [
+        "p-09-personal"
+      ],
+      "opciones": [
+        {
+          "texto": "Quiero redactar un mensaje",
+          "siguiente": "redactar",
+          "palabras": [
+            "redactar",
+            "mensaje",
+            "plantilla"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "propuestas": {
+      "texto": "Buena idea: además de reportar, puedes proponer algo para que no se repita.",
+      "fichas": [
+        "u-07-propuestas"
+      ],
+      "opciones": [
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "limites_bot": {
+      "texto": "Soy un bot de orientación: te explico pasos y te dejo plantillas, pero no envío mensajes, no presento quejas, no consulto si una clase fue cancelada, no avisaré a tu coordinación y no puedo comunicarte con una persona. Tampoco tengo acceso a datos de maestros. Mi información puede ser un borrador: confírmala con tu coordinación o en el documento oficial. Para orientarte no necesito tu nombre, tu código ni datos personales; evita escribirlos. Si no entiendo algo, elige una opción o cuéntamelo con otras palabras.",
+      "opciones": [
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        },
+        {
+          "texto": "Empezar de nuevo",
+          "siguiente": "inicio",
+          "palabras": [
+            "empezar",
+            "reiniciar",
+            "inicio",
+            "hola"
+          ]
+        }
+      ]
+    },
+    "no_puedo": {
+      "texto": "Eso no lo puedo hacer ni prometer: no puedo asegurar que sancionen a un maestro ni decidir si cometió una falta, garantizar confidencialidad o que no habrá consecuencias, dar datos personales de un docente, decir por qué faltó o si miente, ni inventar pruebas ni redactar una acusación de hechos que no puedas comprobar. Tampoco te recomiendo publicar su nombre en redes sociales. Sí puedo ayudarte a ordenar hechos comprobables y a presentar un reporte respetuoso por la vía formal.",
+      "fichas": [
+        "l-04-sin-fuente"
+      ],
+      "pregunta": "¿Quieres que te ayude a ordenar los hechos para tu reporte?",
+      "opciones": [
+        {
+          "texto": "Sí",
+          "siguiente": "pruebas",
+          "palabras": [
+            "si",
+            "claro",
+            "quiero",
+            "va",
+            "ok",
+            "ordenar"
+          ]
+        },
+        {
+          "texto": "No, por ahora es suficiente",
+          "siguiente": "fin",
+          "palabras": [
+            "suficiente",
+            "gracias",
+            "por ahora",
+            "no"
+          ]
+        },
+        {
+          "texto": "Ver otros temas",
+          "siguiente": "menu",
+          "palabras": [
+            "menu",
+            "otros temas",
+            "otro tema",
+            "otra duda",
+            "mas temas"
+          ]
+        }
+      ]
+    }
+  },
+  "intenciones": [
+    {
+      "estado": "inicio",
+      "palabras": [
+        "hola",
+        "buenas",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "por donde empezar",
+        "que hago en mi caso",
+        "que hago en mi situacion"
+      ]
+    },
+    {
+      "estado": "menu",
+      "palabras": [
+        "otro tema",
+        "otros temas",
+        "otra duda",
+        "mas temas",
+        "menu"
+      ]
+    },
+    {
+      "estado": "fin",
+      "palabras": [
+        "gracias",
+        "muchas gracias",
+        "adios",
+        "hasta luego"
+      ]
+    },
+    {
+      "estado": "primera_vez",
+      "palabras": [
+        "no llego el maestro",
+        "no llego mi maestro",
+        "maestro no llego",
+        "profesor no llego",
+        "profe no llego",
+        "no llego",
+        "no vino",
+        "no ha llegado",
+        "no hay clase",
+        "no hay nadie",
+        "vine hasta aca",
+        "para que vine",
+        "y ahora que hago",
+        "primera vez",
+        "nunca aparece",
+        "nunca llego",
+        "esto se puede reportar",
+        "se puede reportar",
+        "ya termino la hora",
+        "ya paso la mitad",
+        "nadie sabe donde esta",
+        "no llega",
+        "no llega el maestro",
+        "no llega mi maestro",
+        "mi maestro no llega",
+        "no se presenta",
+        "no se presento",
+        "no se presento el maestro"
+      ]
+    },
+    {
+      "estado": "recurrente",
+      "palabras": [
+        "falta constantemente",
+        "falta seguido",
+        "falta siempre",
+        "falta mucho",
+        "falta todas las semanas",
+        "todas las semanas",
+        "varias veces seguidas",
+        "misma semana",
+        "otra vez no hay clase",
+        "otra vez",
+        "siempre hace lo mismo",
+        "todo el semestre",
+        "mas clases de las que tenemos",
+        "faltas recurrentes",
+        "cuantas faltas",
+        "muchas veces",
+        "varias veces"
+      ]
+    },
+    {
+      "estado": "espera",
+      "palabras": [
+        "cuanto tiempo espero",
+        "cuanto debo esperar",
+        "cuanto tiempo debo esperar",
+        "tiempo de espera",
+        "tolerancia",
+        "debo esperar",
+        "tengo que esperar",
+        "puedo irme",
+        "me puedo ir",
+        "nos podemos ir",
+        "ya nos podemos ir",
+        "puedo retirarme",
+        "retirarme",
+        "nos quedamos",
+        "me voy",
+        "nos vamos",
+        "quedarme en el salon",
+        "llega cuando ya nos fuimos",
+        "llega despues",
+        "esperar",
+        "quieren irse",
+        "prefiero esperar",
+        "yo prefiero esperar",
+        "unos alumnos se quedan",
+        "otros se van"
+      ]
+    },
+    {
+      "estado": "avisos",
+      "palabras": [
+        "avisos",
+        "aviso",
+        "avisar",
+        "avise",
+        "avisaron",
+        "cancelacion",
+        "cancelaciones",
+        "cancelada",
+        "cancelo",
+        "cancelaron",
+        "moodle",
+        "whatsapp",
+        "por correo",
+        "rumor",
+        "rumores",
+        "medio oficial",
+        "saber antes",
+        "habra clase",
+        "hay clase",
+        "nadie nos avisa",
+        "va a venir"
+      ]
+    },
+    {
+      "estado": "pruebas",
+      "palabras": [
+        "prueba",
+        "pruebas",
+        "evidencia",
+        "evidencias",
+        "captura",
+        "capturas",
+        "fotografia",
+        "foto",
+        "testigo",
+        "testigos",
+        "demostrar",
+        "comprobar que",
+        "tabla de",
+        "grabar",
+        "grabacion",
+        "conservar",
+        "datos personales de otros",
+        "demostrar que",
+        "demostrar que el maestro",
+        "como puedo demostrar",
+        "demostrar lo sucedido"
+      ]
+    },
+    {
+      "estado": "redactar",
+      "palabras": [
+        "redactar",
+        "redacta",
+        "redactame",
+        "plantilla",
+        "escrito",
+        "carta",
+        "un correo",
+        "un mensaje",
+        "ayudame a escribir",
+        "preparar una reunion",
+        "solicitar una reunion",
+        "reunion con",
+        "atacando",
+        "agresion",
+        "sin que parezca",
+        "tono respetuoso",
+        "respetuosa",
+        "escribir una queja",
+        "una queja",
+        "escribir",
+        "un escrito",
+        "hacerme un escrito",
+        "escrito dirigido",
+        "redacto una queja"
+      ]
+    },
+    {
+      "estado": "coordinacion",
+      "palabras": [
+        "a quien le aviso",
+        "a quien le digo",
+        "con quien me quejo",
+        "donde reporto",
+        "donde lo reporto",
+        "a quien acudo",
+        "a quien acudir",
+        "coordinador",
+        "coordinacion",
+        "jefe del departamento",
+        "jefatura",
+        "direccion",
+        "secretaria academica",
+        "secretaria administrativa",
+        "tutor academico",
+        "oficina",
+        "quien se encarga",
+        "quien es el responsable",
+        "sociedad de alumnos",
+        "presentar una queja",
+        "como reportar",
+        "como presento",
+        "procedimiento",
+        "nos hagan caso",
+        "nos tomen en serio",
+        "reportar",
+        "reportarlo",
+        "reportar a un profesor",
+        "no imparte",
+        "no imparte sus clases",
+        "no imparte clases"
+      ]
+    },
+    {
+      "estado": "calificaciones",
+      "palabras": [
+        "calificacion",
+        "calificaciones",
+        "promedio",
+        "puntos",
+        "examen",
+        "examenes",
+        "temario",
+        "temas pendientes",
+        "reprobar",
+        "reprobado",
+        "poner falta",
+        "pongan falta",
+        "registra asistencia",
+        "asistencia",
+        "asistencias",
+        "evaluacion",
+        "evaluar",
+        "no entiendo la materia",
+        "asesoria",
+        "asesorias",
+        "prorroga",
+        "materia seriada",
+        "no entregue",
+        "ponen falta",
+        "me pueden poner falta",
+        "me pongan falta",
+        "evaluarnos",
+        "temas que no explico",
+        "no explico",
+        "no explicaron",
+        "no explico en clase"
+      ]
+    },
+    {
+      "estado": "recuperacion",
+      "palabras": [
+        "recuperar",
+        "recuperacion",
+        "recuperen",
+        "reponer",
+        "reposicion",
+        "reponga",
+        "sesion extraordinaria",
+        "suplente",
+        "sustituto",
+        "clases perdidas",
+        "plan para cubrir",
+        "sabado"
+      ]
+    },
+    {
+      "estado": "represalias",
+      "palabras": [
+        "represalia",
+        "represalias",
+        "miedo",
+        "me da miedo",
+        "se enoje",
+        "enojarse",
+        "me amenaza",
+        "amenaza con reprobarme",
+        "me trata diferente",
+        "trato diferente",
+        "mi identidad",
+        "confidencialidad",
+        "confidencial",
+        "anonima",
+        "anonimo",
+        "reservada",
+        "injustamente",
+        "presionan para que retire",
+        "retire la queja",
+        "me confronta",
+        "meterme en problemas"
+      ]
+    },
+    {
+      "estado": "grupo",
+      "palabras": [
+        "companeros",
+        "mis companeros",
+        "el grupo",
+        "grupal",
+        "colectiva",
+        "colectivo",
+        "representante",
+        "firmar",
+        "firmas",
+        "peticion",
+        "entre todos",
+        "lista compartida",
+        "otros semestres",
+        "varios grupos",
+        "varias materias",
+        "diferentes profesores",
+        "representar",
+        "representar formalmente",
+        "al grupo",
+        "representa al grupo",
+        "grupo completo"
+      ]
+    },
+    {
+      "estado": "sin_respuesta",
+      "palabras": [
+        "no responde",
+        "no responden",
+        "no contesta",
+        "no me contestan",
+        "nadie me contesta",
+        "no me responden",
+        "sin respuesta",
+        "no hicieron caso",
+        "ignoraron",
+        "folio",
+        "comprobante",
+        "plazo",
+        "me mandan de una oficina",
+        "me remiten",
+        "instancia superior",
+        "no hace nada",
+        "no es su responsabilidad",
+        "se niega a recibir",
+        "no quiere recibir",
+        "no pueden ayudarme",
+        "no responde mi correo",
+        "coordinacion no responde",
+        "jefatura no responde",
+        "tampoco responde",
+        "no me responde",
+        "no recibi un folio",
+        "no recibi folio",
+        "no recibi",
+        "no recibio",
+        "no me dieron folio"
+      ]
+    },
+    {
+      "estado": "seguimiento",
+      "palabras": [
+        "seguimiento",
+        "atendido",
+        "estado de mi reporte",
+        "consultar el estado",
+        "avances",
+        "avance",
+        "resultado de mi queja",
+        "cerrar el reporte",
+        "reabrir",
+        "reabra",
+        "vuelve a faltar",
+        "volvio a faltar",
+        "resolvio",
+        "solucionado",
+        "retroalimentacion",
+        "medidas"
+      ]
+    },
+    {
+      "estado": "especiales",
+      "palabras": [
+        "llega tarde",
+        "llego tarde",
+        "se retira",
+        "se retiro",
+        "a los pocos minutos",
+        "nos deja una actividad",
+        "dos horas",
+        "clase virtual",
+        "no se conecta",
+        "plataforma falla",
+        "otro salon",
+        "cambio la hora",
+        "edificio cerrado",
+        "suspension",
+        "paro",
+        "practica",
+        "laboratorio",
+        "exposicion",
+        "otro docente",
+        "equipo especializado"
+      ]
+    },
+    {
+      "estado": "razon",
+      "palabras": [
+        "esta enfermo",
+        "enfermo",
+        "enfermedad",
+        "emergencia",
+        "accidente",
+        "incapacidad",
+        "permiso",
+        "comision",
+        "tiene una razon",
+        "motivo",
+        "justificada",
+        "justificar",
+        "tuvo un problema",
+        "actividad institucional",
+        "varias semanas"
+      ]
+    },
+    {
+      "estado": "situacion_personal",
+      "palabras": [
+        "transporte",
+        "gasto dinero",
+        "devuelve el dinero",
+        "compensacion",
+        "pedi permiso",
+        "cuidar a alguien",
+        "estres",
+        "frustracion",
+        "verguenza",
+        "exagero",
+        "cansado",
+        "harto",
+        "hartos",
+        "motivacion",
+        "mi familia",
+        "tiempo y dinero",
+        "es normal que",
+        "es justo",
+        "me aguanto",
+        "nadie toma en serio",
+        "perdiendo el tiempo",
+        "perder el tiempo",
+        "dicen que exagero",
+        "que exagero",
+        "mis companeros dicen que exagero"
+      ]
+    },
+    {
+      "estado": "propuestas",
+      "palabras": [
+        "proponer",
+        "propuesta",
+        "propuestas",
+        "aplicacion",
+        "pagina donde",
+        "sistema de avisos",
+        "sistema oficial",
+        "sistema de notificaciones",
+        "protocolo",
+        "prueba piloto",
+        "indicadores",
+        "profesor suplente",
+        "canal alternativo",
+        "automata",
+        "mejorar el sistema",
+        "cancelaciones falsas",
+        "establecer un protocolo",
+        "un protocolo para",
+        "protocolo para cuando"
+      ]
+    },
+    {
+      "estado": "derechos",
+      "palabras": [
+        "derecho",
+        "derechos",
+        "reglamento",
+        "norma",
+        "normativa",
+        "ley",
+        "legal",
+        "articulo",
+        "articulos",
+        "sancion",
+        "sanciones",
+        "obligacion",
+        "obligaciones",
+        "obligado",
+        "abogado",
+        "juridica",
+        "comision estatal",
+        "derechos humanos",
+        "autoridad externa",
+        "vigente",
+        "falta administrativa",
+        "infraccion"
+      ]
+    },
+    {
+      "estado": "limites_bot",
+      "palabras": [
+        "puedes avisar",
+        "puedes presentar",
+        "puedes consultar",
+        "puedes comunicarte",
+        "un humano",
+        "persona real",
+        "de donde obtienes",
+        "de donde sacas",
+        "comprobar la informacion",
+        "correo equivocado",
+        "ya cambio",
+        "quien puede ver",
+        "guardar los datos",
+        "sin dar mi nombre",
+        "que puedes hacer",
+        "para que sirves",
+        "quien eres",
+        "eres un bot",
+        "en mi nombre",
+        "avisar directamente",
+        "no sabes la respuesta",
+        "no entiende mi pregunta",
+        "queja en mi nombre",
+        "presentar una queja en mi nombre",
+        "denuncia en mi nombre"
+      ]
+    },
+    {
+      "estado": "no_puedo",
+      "palabras": [
+        "asegurarme",
+        "garantizar",
+        "garantices",
+        "prometer",
+        "prometes",
+        "sancionado",
+        "sancionen",
+        "que sancion le corresponde",
+        "cuantas faltas tiene",
+        "donde esta el profesor",
+        "telefono personal",
+        "numero personal",
+        "publicar su nombre",
+        "publicar en redes",
+        "redes sociales",
+        "inventar pruebas",
+        "inventar",
+        "acusacion",
+        "denuncia sin mi",
+        "esta mintiendo",
+        "miente",
+        "por que falto",
+        "articulo legal"
+      ]
+    }
+  ]
+}

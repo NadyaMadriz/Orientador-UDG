@@ -1,0 +1,138 @@
+[
+  {
+    "id": "p-01-esperar",
+    "level": "personal",
+    "topic": "clase_vacia",
+    "title": "Qué hacer cuando el maestro no llega",
+    "keywords": ["maestro no llego", "no llega", "clase vacia", "falto", "no vino", "profesor ausente", "espera", "tolerancia", "que hago"],
+    "content": "Primero confirma que realmente faltó: revisa Classroom, correo y el grupo de WhatsApp o Teams por si avisó, y pregunta al jefe de grupo. Espera el tiempo de tolerancia que marque tu reglamento o tu departamento. Si pasado ese tiempo no hay aviso, la clase se considera vacía.",
+    "steps": [
+      "Revisa si el maestro avisó (Classroom, correo, grupo).",
+      "Espera el tiempo de tolerancia aplicable (confírmalo con tu coordinación).",
+      "Anota la hora exacta y quiénes estaban presentes.",
+      "Pasa al paso de juntar evidencia."
+    ],
+    "source": "BORRADOR - reemplazar con tu documento oficial",
+    "verified": false
+  },
+  {
+    "id": "p-02-evidencia",
+    "level": "personal",
+    "topic": "clase_vacia",
+    "title": "Qué evidencia juntar de una clase vacía",
+    "keywords": ["evidencia", "pruebas", "foto", "captura", "registro", "lista", "testigos", "documentar"],
+    "content": "Una queja con evidencia se atiende mucho mejor. Junta datos objetivos: fecha, hora, materia, salón, grupo y sección (NRC), y lleva un registro de cuántas veces ha pasado.",
+    "steps": [
+      "Toma una foto del salón o pasillo con la hora visible.",
+      "Guarda capturas de mensajes, correos o avisos (o de que no hubo aviso).",
+      "Pide a 3 o más compañeros que confirmen lo ocurrido por escrito.",
+      "Haz una tabla simple: fecha, hora, materia, ¿avisó?, ¿repuso?"
+    ],
+    "source": "BORRADOR - reemplazar con tu documento oficial",
+    "verified": false
+  },
+  {
+    "id": "p-03-hablar",
+    "level": "personal",
+    "topic": "clase_vacia",
+    "title": "Hablar primero con el maestro",
+    "keywords": ["hablar", "correo", "dialogo", "contactar", "preguntar al maestro", "justificar", "motivo"],
+    "content": "Si es la primera vez, lo más sencillo suele ser escribirle al maestro de forma respetuosa, de preferencia en grupo y por un medio con registro (correo). Pregunta el motivo y cuándo se repondrá la clase. Esto no es obligatorio: si no te sientes cómodo o ya es algo recurrente, puedes pasar directo al nivel UDG.",
+    "steps": [
+      "Escribe un correo breve y cordial con fecha y hora de la clase.",
+      "Pregunta si habrá reposición y cuándo.",
+      "Guarda su respuesta (o la falta de respuesta) como evidencia."
+    ],
+    "source": "BORRADOR - reemplazar con tu documento oficial",
+    "verified": false
+  },
+  {
+    "id": "u-01-coordinacion",
+    "level": "udg",
+    "topic": "clase_vacia",
+    "title": "Reportar con la coordinación de carrera o jefatura de departamento",
+    "keywords": ["reportar", "queja", "coordinacion", "coordinador", "jefe de departamento", "jefatura", "dirigir", "denunciar", "falta mucho", "recurrente"],
+    "content": "El primer canal formal dentro de la UDG es la coordinación de tu carrera y/o la jefatura del departamento al que pertenece el maestro. Lleva tu evidencia y, de preferencia, presenta el reporte por escrito (con firma de varios compañeros) para que quede registro.",
+    "steps": [
+      "Redacta un escrito: materia, maestro, fechas, horas y qué ha pasado.",
+      "Adjunta evidencia y firmas del grupo.",
+      "Entrégalo en coordinación de carrera / jefatura de departamento y pide acuse de recibido.",
+      "Anota la fecha de entrega y a quién se la diste."
+    ],
+    "source": "BORRADOR - confirmar nombres exactos de oficinas y horarios en CUTonalá",
+    "verified": false
+  },
+  {
+    "id": "u-02-reposicion",
+    "level": "udg",
+    "topic": "clase_vacia",
+    "title": "Reposición de clase y cumplimiento del programa",
+    "keywords": ["reposicion", "reponer", "recuperar clase", "programa", "contenido", "temario", "horas", "exigir"],
+    "content": "Como estudiante puedes solicitar que se cumpla el programa de la materia y que las sesiones perdidas se repongan. Pídelo a la coordinación o al departamento, y que quede por escrito la fecha de reposición.",
+    "steps": [
+      "Pide por escrito a coordinación o departamento una fecha de reposición.",
+      "Revisa el programa/temario de la materia para identificar qué contenido faltó.",
+      "Da seguimiento hasta que se confirme la reposición."
+    ],
+    "source": "BORRADOR - confirmar reglamento aplicable",
+    "verified": false
+  },
+  {
+    "id": "u-03-defensoria",
+    "level": "udg",
+    "topic": "clase_vacia",
+    "title": "Si no te responden: Defensoría de los Derechos Universitarios",
+    "keywords": ["defensoria", "no responden", "no hacen caso", "ignoran", "derechos universitarios", "sin respuesta", "escalar", "instancia"],
+    "content": "Si la coordinación o el departamento no atienden tu reporte, puedes acudir a la Defensoría de los Derechos Universitarios de la UDG, que recibe quejas de estudiantes sobre posibles violaciones a sus derechos dentro de la universidad. Lleva tu escrito, la evidencia y el acuse de recibo de tu reporte anterior.",
+    "steps": [
+      "Reúne tu escrito previo, acuse y evidencia.",
+      "Presenta tu queja ante la Defensoría de los Derechos Universitarios.",
+      "Conserva copia de todo lo que entregues."
+    ],
+    "source": "BORRADOR - confirmar procedimiento y contacto vigente",
+    "verified": false
+  },
+  {
+    "id": "l-01-derechos",
+    "level": "legal",
+    "topic": "clase_vacia",
+    "title": "Tu derecho a recibir las clases del programa",
+    "keywords": ["derecho", "ley", "legal", "normativa", "reglamento", "estatuto", "ley organica", "educacion", "obligacion del maestro"],
+    "content": "Como estudiante tienes derecho a recibir la formación que ofrece tu programa educativo, y el personal académico tiene la obligación de cumplir con sus horas y actividades de docencia. Esto se regula en la normativa universitaria (Ley Orgánica, Estatuto General y reglamentos aplicables de la UDG). [PENDIENTE: citar los artículos exactos de tu documento oficial.]",
+    "steps": [
+      "Consulta la normativa vigente en el sitio oficial de la UDG (Secretaría General).",
+      "Cita el artículo exacto en tu escrito cuando lo tengas."
+    ],
+    "source": "BORRADOR - NO hay artículos verificados; completar con tu documento",
+    "verified": false
+  },
+  {
+    "id": "l-02-responsabilidad",
+    "level": "legal",
+    "topic": "clase_vacia",
+    "title": "Faltas reiteradas del maestro: quién responde",
+    "keywords": ["faltas reiteradas", "responsabilidad", "sancion", "procedimiento", "administrativo", "laboral", "investigacion", "maestro falta siempre"],
+    "content": "Las faltas reiteradas de un académico son un asunto de responsabilidad administrativa/laboral que resuelve la propia universidad; el estudiante no impone la sanción, pero sí puede presentar la queja y pedir que se investigue. Por eso es clave que tu reporte sea formal, por escrito y con evidencia.",
+    "steps": [
+      "Presenta el reporte formal por escrito.",
+      "Solicita que se investigue y que te informen del resultado.",
+      "Guarda toda respuesta oficial."
+    ],
+    "source": "BORRADOR - confirmar con documento oficial",
+    "verified": false
+  },
+  {
+    "id": "l-03-externas",
+    "level": "legal",
+    "topic": "clase_vacia",
+    "title": "Instancias externas a la universidad",
+    "keywords": ["externa", "derechos humanos", "cedhj", "comision", "fuera de la universidad", "abogado", "asesoria juridica", "ultimo recurso"],
+    "content": "Si agotas los canales internos y sientes que se violan tus derechos, puedes buscar apoyo externo, por ejemplo la Comisión Estatal de Derechos Humanos de Jalisco o asesoría jurídica gratuita de clínicas jurídicas universitarias. Es un último recurso, no el primer paso. [PENDIENTE: verificar competencia y requisitos vigentes.]",
+    "steps": [
+      "Agota primero coordinación, departamento y Defensoría.",
+      "Si procede, consulta una asesoría jurídica antes de decidir."
+    ],
+    "source": "BORRADOR - verificar con asesoría jurídica",
+    "verified": false
+  }
+]

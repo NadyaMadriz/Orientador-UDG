@@ -1,0 +1,214 @@
+[
+  {
+    "id": "p-04-avisos",
+    "level": "personal",
+    "title": "Cómo confirmar si de verdad hay clase o fue cancelada",
+    "keywords": ["aviso", "avisos", "cancelacion", "cancelada", "moodle", "correo", "whatsapp", "grupo", "confirmar", "rumor", "oficial", "representante"],
+    "content": "Antes de dar una clase por perdida, conviene confirmar si hubo un aviso y por qué medio. Un rumor o un mensaje reenviado no es lo mismo que un aviso oficial. Qué medio es el oficial en tu carrera hay que confirmarlo con tu coordinación; aquí no puedo verificarlo por ti.",
+    "steps": [
+      "Revisa los medios que usa tu grupo (plataforma del curso, correo, grupo de mensajes) y guarda una captura con fecha y hora.",
+      "Pregunta al representante del grupo si recibió algo; si solo avisó a algunos, anótalo.",
+      "Si nadie sabe nada, pregunta en la coordinación si la clase fue cancelada oficialmente.",
+      "Si el maestro dice que sí avisó, pídele que indique por qué medio y cuándo; así se aclara sin discutir."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-05-pruebas",
+    "level": "personal",
+    "title": "Qué evidencia juntar y cómo cuidarla",
+    "keywords": ["prueba", "pruebas", "evidencia", "captura", "fotografia", "foto", "lista", "testigos", "tabla", "pdf", "grabar", "grabacion", "redes sociales", "publicar", "datos personales"],
+    "content": "Sirve todo lo verificable y lo que puedas explicar sin exagerar: fechas, horas, capturas de avisos (o de la falta de avisos) y mensajes originales. Si no tienes pruebas, tu testimonio con fechas claras también cuenta como parte del reporte. No inventes ni alteres nada, y no publiques fotos ni nombres en redes sociales: eso puede perjudicarte y no sustituye el trámite formal.",
+    "steps": [
+      "Haz una tabla con fecha, hora, materia, salón y qué pasó (no llegó, no avisó, avisó tarde).",
+      "Guarda capturas y mensajes originales; si salen datos de otras personas, tápalos antes de enviarlos.",
+      "Si tus compañeros quieren, que anoten o firmen que ese día tampoco hubo clase; si nadie quiere, tu testimonio sigue siendo válido.",
+      "Para grabar a alguien consulta primero con la coordinación qué está permitido; no lo hagas a escondidas.",
+      "Conserva todo en un solo archivo ordenado por fecha, por ejemplo en PDF."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-06-redactar",
+    "level": "personal",
+    "title": "Plantilla de mensaje para la coordinación",
+    "keywords": ["redactar", "escribir", "escrito", "correo", "mensaje", "carta", "queja", "reporte", "formal", "plantilla", "ayudame", "peticion", "documento"],
+    "content": "Este bot no envía mensajes ni presenta quejas por ti: solo te deja una plantilla para que la copies, la completes con tus datos y la mandes tú. Mantén un tono respetuoso, con hechos y fechas, sin acusar de intenciones. Plantilla: \"Asunto: Reporte de clases no impartidas. Buen día. Soy estudiante de [carrera], grupo [grupo]. Quiero informar que la materia [materia], con el docente [nombre], no se impartió en las siguientes fechas: [fechas y horas]. No recibimos aviso por [medios revisados]. Adjunto [evidencia]. Solicito que se confirme la situación y se proponga una forma de recuperar los contenidos. Quedo atento(a) a su respuesta y a un folio o comprobante de recepción. Gracias.\"",
+    "steps": [
+      "Completa los datos entre corchetes con información que puedas comprobar.",
+      "Pide un folio, acuse o respuesta por escrito.",
+      "Si prefieres hablarlo en persona, lleva la tabla de fechas impresa o en tu celular y pide una cita con anticipación.",
+      "Si no recibes comprobante, guarda tu mensaje enviado y la fecha en que lo mandaste."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-07-grupo",
+    "level": "personal",
+    "title": "Cómo manejarlo como grupo",
+    "keywords": ["grupo", "companeros", "representante", "colectivo", "colectiva", "grupal", "firmas", "firmar", "peticion", "desacuerdo", "burlan", "equipo", "esperar"],
+    "content": "Una petición del grupo suele pesar más que un caso aislado, pero no es obligatorio hacerla en grupo: un alumno puede reportar por su cuenta. Si el grupo no se pone de acuerdo, lo importante es que cada quien decida cuánto esperar y que los hechos del reporte sean los mismos para todos.",
+    "steps": [
+      "Acuerden entre todos un tiempo de espera y quién avisa a la coordinación.",
+      "Creen una lista compartida de fechas y horarios; que cada dato sea verificable.",
+      "Si el representante no quiere reportar, el grupo puede proponer a otra persona o cada alumno puede presentar su propio escrito.",
+      "Para una petición colectiva, redacten un solo texto con hechos y lo que piden (aviso, recuperación), y recojan firmas solo de quien quiera firmar."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-08-represalias",
+    "level": "personal",
+    "title": "Si te da miedo reportar o hay represalias",
+    "keywords": ["miedo", "represalia", "represalias", "enojar", "enoja", "reprobar", "amenaza", "confidencial", "confidencialidad", "anonima", "anonimo", "identidad", "trato diferente", "injusto", "calificacion cambio"],
+    "content": "Es normal tener miedo, y no tienes que reportar de forma agresiva: puedes pedir una solución (avisos, recuperación) sin pedir sanciones. No puedo prometerte que tu identidad sea confidencial ni que no haya consecuencias; eso depende del procedimiento de tu centro. Lo que sí puedes hacer es preguntar en la coordinación si existe forma de reservar tu nombre y documentar todo desde el inicio.",
+    "steps": [
+      "Pregunta antes de presentar el reporte si se puede mantener reservada tu identidad y si tu nombre aparece en el expediente.",
+      "Si notas un trato distinto o cambios injustos en tu evaluación después del reporte, anota fecha, hecho y evidencia.",
+      "Informa esa posible represalia por escrito a la misma coordinación; si no responde, acude a una instancia superior.",
+      "Puedes pedir acompañamiento (tutor, representante estudiantil) en una reunión."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-09-personal",
+    "level": "personal",
+    "title": "Cuando la situación te pega a ti (dinero, tiempo, ánimo)",
+    "keywords": ["transporte", "dinero", "gasto", "gastos", "trabajo", "trabajo", "estres", "frustracion", "cansado", "hartos", "verguenza", "motivacion", "lejos", "familia", "tutor", "exagero", "normal", "justo"], 
+    "content": "Querer que se respeten los horarios es razonable: perder tiempo y dinero por una clase que no se dio te afecta de verdad. No puedo asegurarte que la universidad devuelva gastos de transporte; lo que sí puedes hacer es pedir por escrito que se avise con anticipación y que quede registro de tus gastos y tiempo perdido. Hablarlo con tu tutor puede ayudarte a no cargarlo solo.",
+    "steps": [
+      "Registra cuántas veces pasó y cuánto te costó llegar, para explicarlo con datos y no solo con enojo.",
+      "Pide que las cancelaciones se avisen con anticipación y por un medio fijo.",
+      "Habla con tu tutor o con alguien de confianza si te está afectando el ánimo o la motivación.",
+      "Si tienes otra clase o trabajo después, acuerda con tu grupo cuánto esperar y avisa a la coordinación que se retiran."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-10-razon",
+    "level": "personal",
+    "title": "Si el maestro sí tenía una razón para faltar",
+    "keywords": ["enfermo", "enfermedad", "emergencia", "accidente", "incapacidad", "permiso", "comision", "motivo", "razon", "justificada", "justificar", "privacidad", "suplente", "sustituto", "semanas"],
+    "content": "Puede haber emergencias, incapacidades, permisos o comisiones. No tienes derecho a conocer el motivo personal ni conviene preguntarlo, pero sí puedes pedir información de qué pasará con la clase: si hay suplente, cuándo se reanuda y cómo se recuperan los temas. Reportar la falta de comunicación no es cuestionar el motivo.",
+    "steps": [
+      "Pregunta a la coordinación si la ausencia está autorizada y si habrá suplente o reprogramación.",
+      "Si faltará varias semanas, pide un plan para cubrir el temario.",
+      "Distingue entre una emergencia aislada y faltas repetidas sin explicación: lo segundo sí conviene reportarlo.",
+      "No pidas ni publiques datos médicos o privados del docente."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-11-especiales",
+    "level": "personal",
+    "title": "Casos intermedios: llegó tarde, se fue, solo dejó actividad",
+    "keywords": ["tarde", "retardo", "se retiro", "se fue", "minutos", "actividad", "tarea", "dos horas", "virtual", "plataforma", "conecta", "otro salon", "laboratorio", "practica", "edificio cerrado", "paro", "suspension", "examen", "exposicion", "otro maestro"],
+    "content": "No todo es una clase vacía completa. Si llega tarde pero hay tiempo, lo razonable es tomar la clase y anotar la hora. Si se retira a los pocos minutos, deja solo una actividad, imparte una de dos horas o la clase virtual no se da, cuenta como clase incompleta: anótalo igual que una falta, con hora y qué pasó. Si hubo suspensión oficial, paro o edificio cerrado, no es falta del docente; confirma el aviso en la coordinación.",
+    "steps": [
+      "Anota hora de llegada y salida del maestro, o que la sesión virtual no se abrió, y qué se alcanzó a ver.",
+      "Si se perdió una práctica, examen o exposición, avisa a la coordinación en ese momento para pedir reposición.",
+      "Si no sabes si es suspensión oficial, confírmalo antes de culpar al maestro.",
+      "Si otro docente los atendió, anótalo: sigue contando como clase impartida solo si se vio el tema."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "p-12-seguimiento",
+    "level": "personal",
+    "title": "Cómo dar seguimiento a tu reporte",
+    "keywords": ["seguimiento", "folio", "estado", "avance", "respuesta", "resultado", "cerrar", "reabrir", "volvio a faltar", "funciono", "retroalimentacion", "resolvio"],
+    "content": "Después de reportar, lo que más ayuda es tener un folio o respuesta por escrito y una fecha para volver a preguntar. Si el problema mejora, avísalo y conserva el registro; si vuelve a pasar, no empiezas de cero: lo anotas como continuación del mismo reporte. No puedo consultar el estado de tu caso porque no tengo acceso a los sistemas de la universidad.",
+    "steps": [
+      "Anota fecha de entrega, a quién y el folio.",
+      "Pregunta cuándo puedes esperar respuesta y revisa de nuevo pasado ese plazo, sin escribir todos los días.",
+      "Si el maestro mejora pero faltan temas, pide un plan de recuperación.",
+      "Si vuelve a faltar, envía una actualización con las nuevas fechas y pide reabrir o revisar el caso.",
+      "Cuando se resuelva, avisa por escrito que quedó atendido."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "u-04-calificaciones",
+    "level": "udg",
+    "title": "Si las clases perdidas afectan tus calificaciones o asistencias",
+    "keywords": ["falta", "asistencia", "puntos", "calificacion", "calificaciones", "promedio", "examen", "temario", "temas", "reprobar", "prorroga", "revision", "asesoria", "asesorias", "serada", "actividad", "evaluar", "evaluacion"],
+    "content": "Si el maestro no dio una clase, no debería afectarte con falta o con puntos, ni evaluarte sobre temas que no se vieron. No puedo decirte qué artículo lo respalda; eso hay que confirmarlo en el reglamento oficial o en tu coordinación. Lo práctico es pedirlo por escrito antes del examen, con la lista de temas pendientes.",
+    "steps": [
+      "Haz una lista de temas del programa que no se explicaron y fechas de clases perdidas.",
+      "Pide por escrito a la coordinación una reposición o asesoría antes de la evaluación, o ajustar el calendario.",
+      "Si te registraron asistencia de una clase que no hubo, o te pusieron falta por retirarte, repórtalo con tu evidencia.",
+      "Si ya tienes una calificación que consideras injusta, pregunta cómo solicitar una revisión."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "u-05-recuperacion",
+    "level": "udg",
+    "title": "Cómo recuperar las clases perdidas",
+    "keywords": ["recuperar", "recuperacion", "reponer", "reposicion", "sabado", "linea", "extraordinaria", "suplente", "sustituto", "plan", "horario", "reprogramar", "sesion", "temario", "negar"],
+    "content": "Reportar no resuelve por sí solo lo académico: conviene pedir también un plan de recuperación. Quién decide cuándo y cómo se recupera una clase hay que confirmarlo con tu coordinación. Pide que el acuerdo quede por escrito, con fechas y temas.",
+    "steps": [
+      "Calcula cuántas horas o sesiones faltan y qué temas quedaron pendientes.",
+      "Propón opciones al grupo (otro horario, sesión en línea, asesorías o material de estudio) y acuerden una fecha que funcione para la mayoría.",
+      "Pide a la coordinación que confirme el plan y que lo registre; si el maestro se niega, pide que otra instancia lo resuelva o que asigne un suplente.",
+      "Si falta a la sesión de recuperación, anótalo como una nueva falta en tu registro."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "u-06-sin-respuesta",
+    "level": "udg",
+    "title": "Qué hacer si la coordinación o la oficina no responde",
+    "keywords": ["no responde", "no contesta", "ignoran", "sin respuesta", "plazo", "remiten", "otra oficina", "me mandan", "amigo", "conoce al profesor", "instancia superior", "revisar mi caso", "no recibio", "por escrito", "reenviar", "mismo reporte"],
+    "content": "Si no hay respuesta, vuelve a escribir con el reporte original adjunto y pide una respuesta por escrito. Si te mandan de una oficina a otra, pide que te indiquen por escrito cuál es el área responsable. Un plazo oficial de respuesta no lo puedo asegurar; revísalo en tu documento oficial. Si tampoco responden, sube de nivel.",
+    "steps": [
+      "Espera un tiempo razonable, pregunta de nuevo con el reporte original y guarda la fecha de cada intento.",
+      "Pide respuesta por escrito y, si te dicen algo verbal, solicita que lo confirmen por correo.",
+      "Si hay conflicto con la coordinación (por ejemplo, conocen al docente), acude a la jefatura del departamento o a una instancia superior de la universidad.",
+      "Conserva todo para demostrar que ya intentaste resolverlo por la vía institucional."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "u-07-propuestas",
+    "level": "udg",
+    "title": "Cómo proponer una mejora al sistema de avisos",
+    "keywords": ["propuesta", "proponer", "sistema", "aplicacion", "pagina", "notificaciones", "protocolo", "piloto", "indicadores", "registro de clases", "suplente", "canal alternativo", "internet", "falsas", "implementar", "coordinacion presentar"],
+    "content": "Una buena propuesta es pequeña y medible: un solo lugar donde se publiquen las cancelaciones, quién puede publicarlas, y un canal alternativo para quien no tenga internet o cuando la plataforma falle. Se puede empezar con una prueba piloto en una sola carrera y medir cuántas clases se pierden antes y después.",
+    "steps": [
+      "Recopila datos: cuántas clases se perdieron, por qué medio se avisó y cuánto tiempo se perdió.",
+      "Propón un lugar oficial de avisos, con permisos solo para docentes y coordinación, para evitar cancelaciones falsas.",
+      "Incluye un canal alternativo (aviso en la puerta o por el representante) y cuida los datos personales.",
+      "Presenta la propuesta a la coordinación y pide un piloto de un semestre con indicadores simples."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  },
+  {
+    "id": "l-04-sin-fuente",
+    "level": "legal",
+    "title": "Artículos, sanciones y autoridad competente: lo que sí y no puedo decirte",
+    "keywords": ["articulo", "articulos", "sancion", "sanciones", "reglamento", "norma", "vigente", "abogado", "juridica", "juridico", "autoridad", "competente", "falta administrativa", "comision estatal", "derechos humanos", "enlace oficial"],
+    "content": "No puedo decirte qué artículo aplica a tu caso, qué sanción le corresponde a un docente ni qué autoridad externa es competente si no tengo la fuente oficial vigente; no voy a inventarlo. Una ausencia aislada no necesariamente es una infracción, y decidir si hubo falta o sanción le toca a las instancias que investigan, no a este bot. Lo correcto es pedir en tu coordinación el reglamento aplicable y verificar que siga vigente.",
+    "steps": [
+      "Pide a tu coordinación el enlace o copia del reglamento y del procedimiento de inconformidades.",
+      "Revisa que el documento sea la versión vigente y anota de dónde lo sacaste.",
+      "No necesitas abogado para una queja universitaria; busca asesoría jurídica si el caso se complica o ya agotaste las instancias internas.",
+      "Si no hay atención interna, pregunta a qué instancia externa corresponde tu caso antes de acudir."
+    ],
+    "verified": false,
+    "source": "BORRADOR - reemplazar con tu documento oficial"
+  }
+]
